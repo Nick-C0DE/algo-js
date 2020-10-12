@@ -4,12 +4,10 @@
 const readlineSync = require("readline-sync");
 
 
-let shoeSize = readlineSync.question('Can you give me your shoe size please? ');
-let birthYear = readlineSync.question('Can you give me your birth year please? ');
-
-let a = new Number (readlineSync.question(""));
-let b = new Number (readlineSync.question(""));
-let multiNumber = new Number (Math.round(a/b))
+let firstName = readlineSync.question('Can you give me your first name please? ');
+let a = (readlineSync.question(firstName +' give me a integrer numbers please '));
+let b =  (readlineSync.question(firstName +' give me another integrer numbers please '));
+let multiNumber = new Number (a/b);
 
 console.log(multiNumber);
 

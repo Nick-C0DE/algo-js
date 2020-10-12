@@ -7,3 +7,9 @@
 // Subtract the birth year
 // Add 1766
 // Test with your own birth year and your shoe size.
+const readlineSync = require("readline-sync");
+
+let shoeSize = readlineSync.question('Give me your shoe size please');
+let birthYear = readlineSync.question('When were you born?');
+
+console.log(((((shoeSize*2)+5)*50)-birthYear)-1766);
