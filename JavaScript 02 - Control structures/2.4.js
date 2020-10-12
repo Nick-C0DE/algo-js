@@ -4,10 +4,7 @@ while (i <= 100) {
     console.log(i); 
    i +=1; 
 }
-function isEven(n) {
-    return i % 2 == 0;
- }
- 
- function isOdd(n) {
-    return Math.abs(i % 2) == 1;
- }
+for(let count =0; count<=100;count++){
+    count%2==0? console.log(`${count} is even`):console.log(`${count} is odd`);
+    ;
+   }
