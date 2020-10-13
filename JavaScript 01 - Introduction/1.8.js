@@ -13,4 +13,4 @@ let country = (readlineSync.question(firstName+" "+'Where would you like to live
 let animal = (readlineSync.question(firstName+" "+'what is your favourite animal? '));
 let unlucky = (readlineSync.question(firstName+" "+'what is your unliky number? '));
 
-console.log(lucky + " people from "+ country + " are sitting next to a river, A "+ animal + " swims past and they start to throw rocks at it. The " + animal + " gets angry and begins to swim towards them. " + unlucky + " of them run and climb in a tree. They shout to the other <<Why are you staying there, you better run before the " +animal+ " comes! He replies <<Why I didn't throw any Rocks>>. ");
+console.log(lucky + " people from "+ country + " are sitting next to a river, A "+ animal + " swims past and they start to throw rocks at it. The " + animal + " gets angry and begins to swim towards them. " + unlucky + " of them run and climb in a tree. They shout to the other <<Why are you staying there, you better run before the " +animal+ " comes! they replies <<Why we didn't throw any Rocks>>. ");
